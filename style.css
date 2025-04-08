@@ -1,0 +1,264 @@
+body{
+    font-family: "Open Sans", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav ul li{
+    padding: 1em;
+}
+
+.section-1-image{
+    width: 100%;
+}
+.first-section{
+    margin-top: 10em;
+    text-align: center;
+    padding: 2em;
+}
+.section-one-para{
+    margin: 2em 0;
+}
+form{
+    max-width: 100%;
+}
+#gg{
+    padding: 1em;
+    width: 100%;
+}
+.get-start{
+    width: 100%;
+    height: 40px;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+}
+.curve-img{
+    width: 100%;
+}
+.section-2-image{
+    width: 100%;
+}
+.second-section{
+    margin: 4em;
+    position: relative;
+}
+.arrow-icon{
+    position: absolute;
+    top: 570px;
+    right: 100px;
+}
+.stay-productive{
+    text-align: center;
+}
+.section-2-para{
+    color: hsl(0, 2%, 62%);
+}
+.section-2-a-tag{
+    display: block;
+  width: fit-content;
+   margin: 0 auto;
+   text-decoration: none;
+   color: rgb(14, 53, 14);
+   border-bottom: 2px solid rgb(14, 53, 14);
+   padding-bottom: .5em;
+}
+.mini-container{
+    margin: 3em .5em;
+    padding: 2em;
+    background-color: rgb(219, 223, 223);
+}
+.avatar-img{
+    width: 50px;
+    border-radius: 2.5em;
+    margin-right: 1em;
+}
+.mini-mini{
+    display: flex;
+    position: relative;
+}
+#fc{
+    position: absolute;
+    top: 18px;
+    left: 65px;
+}
+#kb{
+    position: absolute;
+    top: 1px;
+    left: 65px;
+}
+.third-section{
+    background-color: hsl(238, 22%, 44%);
+    text-align: center;
+    
+}
+.section-3-h3{
+    text-align: center;
+    padding: 2em 0;
+    margin-bottom: 0;
+}
+.section-3-para{
+    padding: 0 1em;
+    margin-top: 0;
+    padding-left: 0 1em;
+}
+#mm{
+    padding: 1em;
+    width: 80%;
+}
+.get-start-for-free{
+    padding: 1em;
+    width: 80%;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    margin-bottom: 4em;
+    margin-top: 1em;
+}
+.footer{
+    background-color: hsl(243, 87%, 12%);
+    padding-left: 3em;
+}
+.footer-logo{
+    padding-top: 4em;
+    padding-left: .75em;
+}
+.in-1{
+    display: flex;
+}
+.phone-icon{
+    height: 20px;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-left: .75em;
+}
+.in-2{
+    display: flex;
+}
+.email-icon{
+    height: 20px;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-left: .75em;
+}
+.first-div-footer{
+    margin: 1.5em 0;
+}
+.first-ul-footer{
+    list-style: none;
+    padding-left: .75em;
+}
+.secondd-ul-footer{
+    list-style: none;
+    padding-left: .75em;
+}
+.main-container{
+    min-width: 400px;
+}
+@media(min-width:600px){
+    nav{
+        justify-content: space-between;
+        margin-top: 1em;
+    }
+    .logo{
+        padding-left: 3em;
+    }
+    .first-ul{
+        padding-right: 3em;
+    }
+
+    .first-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; /* or center */
+        align-items: center;
+        padding: 40px 60px;
+        gap: 40px;
+        margin-top: 1em;
+      }
+    
+      .first-come {
+        flex: 1;
+        max-width: 50%;
+      }
+    
+      .section-1-image {
+        flex: 1;
+        max-width: 50%;
+        order: 2;
+      }
+      .for-button-and-email{
+        display: flex;
+        justify-content: space-between;
+      }
+      .get-start{
+        width: 50%;
+        padding: 1em 0;
+        padding-bottom: .5em;
+        
+      }
+
+
+      
+
+      .second-come {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+      }
+    
+      .second-come-1 {
+        flex: 1;
+        max-width: 50%;
+      }
+    
+      .section-2-image {
+        flex: 1;
+        max-width: 50%;
+        order: 2;
+      }
+      .mini-container{
+        width: 300px;
+      }
+
+
+      
+
+      .third-section{
+        display: flex;
+        justify-content: space-between;
+      }
+      .third-come{
+        width: 600px;
+        padding-left: 2em;
+        text-align: start;
+      }
+      .third-come-1{
+        padding-right: 15em;
+        margin: 4em;
+      }
+      #mm{
+        width: 100%;
+      }
+      .get-start-for-free{
+        width: 100%;
+      }
+
+
+
+      .footer-come{
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .footer-logo{
+        padding-left: 12em;
+      }
+      
+}
