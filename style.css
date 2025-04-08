@@ -217,6 +217,7 @@ form{
       .second-come-1 {
         flex: 1;
         max-width: 50%;
+        position: relative;
       }
     
       .section-2-image {
@@ -226,6 +227,11 @@ form{
       }
       .mini-container{
         width: 300px;
+      }
+      .arrow-icon{
+        position: absolute;
+        top: 190px;
+        left: 340px
       }
 
 
